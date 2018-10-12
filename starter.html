@@ -179,7 +179,7 @@ desired effect
               <!-- The user image in the navbar-->
               <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">CenterPoint Energy</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -187,25 +187,12 @@ desired effect
                 <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  Center Point Energy
+                  <small>DataCap Monitor Admin</small>
                 </p>
               </li>
               <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
-              </li>
+             
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -259,7 +246,23 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
+        <li class="active treeview menu-open">
+          <a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="index.html"><i class="fa fa-circle-o text-red"></i> Damage Prevention</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o text-blue"></i> Tax Cert</a></li>
+          </ul>
+        </li>
+        <li class="active treeview menu-open"><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
+          <ul class="treeview-menu" style="">
+            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Tax Cert</a></li>
+          </ul>
+        </li>
         <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
